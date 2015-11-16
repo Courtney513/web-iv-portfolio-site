@@ -1,6 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.img-nav {
+	width: 6rem;
+    height: 6rem;
+    background: grey;
+    margin-bottom: .5rem;
+    padding-left: 33.33333%;
+}
+
+
+#ul-li-color {
+	background-color:#ffffff !important;
+}
+
+.placeholder {
+background-color:#26E5AF;
+width:auto;
+height:5rem;	
+}
+
 .placeholder-250x191 {
 margin-top:30px;
 }
@@ -15,6 +34,9 @@ margin-top:30px;
 margin:50px 0;	
 }
 
+nav li {
+margin-bottom:1rem;	
+}
 nav ul li {
 list-style:none;
 font-size:2rem;
@@ -34,18 +56,123 @@ margin:0 0 0 50px;
 width:100px;
 height:50px;	
 }
+/*-------responsive patterns three columns-------------*/
+.c {
+  padding: 1em;
+}
 
+@media screen and (min-width: 56em) {
+  .main {
+    width: 50%;
+    margin-left: 25%;
+    float: left;
+    padding: 0 1em;
+  }
+  .sb {
+    float: left;
+    width: 25%;
+    margin-left: -75%;
+  }
+  .sb-2 {
+    float: right;
+    width: 25%;
+  }
+}
+/*-------responsive patterns box grid-------------*/
+
+.grid {
+  		overflow: hidden;
+			padding: 0.5em 0 0 0.5em;
+			max-width: 76em;
+			margin: 0 auto;
+		}
+		.grid li {
+			padding: 0 0.5em 0.5em 0;
+		}
+		.grid li > div {
+			background: #808080;
+			padding: 7em 2em;
+			text-align: center;
+		}
+		.grid li a {
+			color: #fff;
+		}
+		
+		@media all and (min-width: 27em) {
+			.grid li {
+				width: 50%;
+				float: left;
+			}
+		}
+		
+		@media all and (min-width: 40em) {
+			.grid li {
+				width: 33.3333333%;
+			}
+			.grid li.wide {
+				width: 66.666666%;
+			}
+		}
+		@media all and (min-width: 60em) {
+			.grid li {
+				width: 25%;
+			}
+			.grid li.wide {
+				width: 50%;
+			}
+		}
+
+
+/*-------responsive patterns-------------*/
 
 /*-------MEDIA QUERIES-------------*/
 /* Small screens*/
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+	.placeholder-250x191 {
+margin-top:30px;
+}
+.placeholder-750x350{
+	margin-top:30px;
+}
+.placeholder-250x382 {
+	margin-top:30px;
+}
+.placeholder-500x390 {
+margin-top:30px;
+}
+.placeholder-250x416 {
+margin-top:30px;	
+}
+.wrapper {
+margin:50px 0;	
+}
+	 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /* Medium screens */
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	
+	.placeholder-250x191 {
+margin-top:30px;
+}
+.placeholder-750x350{
+	margin-top:30px;
+}
+.placeholder-250x382 {
+	margin-top:30px;
+}
+.placeholder-500x390 {
+margin-top:30px;
+}
+.placeholder-250x416 {
+margin-top:30px;	
+}
+.wrapper {
+margin:50px 0;	
+}
 		
 	 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
