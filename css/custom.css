@@ -1,18 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.img-nav {
-	width: 6rem;
-    height: 6rem;
-    background: grey;
-    margin-bottom: .5rem;
-    padding-left: 33.33333%;
-}
+/**=============TABLE OF CONTENTS======
+01. SPACING
+02. NAVIGATION
+====================================**/
 
-
-#ul-li-color {
-	background-color:#ffffff !important;
-}
 
 .placeholder {
 background-color:#26E5AF;
@@ -20,19 +13,51 @@ width:auto;
 height:5rem;	
 }
 
-.placeholder-250x191 {
-margin-top:30px;
+
+/**============01SPACING================**/
+.margin-30{
+	margin-top:2rem;
+}
+.padding-30 {
+	padding-top:2rem;
+}
+/**=============01SPACING===============**/
+.wrapper {
+margin:3.125rem 0;	
+}
+/**=============02 NAVIGATION===============**/
+nav li {
+margin-bottom:1rem;	
+}
+nav ul li {
+list-style:none;
+font-size:2rem;
+background:aquamarine;	
+margin-bottom:1rem;
+text-align:center;
 }
 
-.placeholder-500x390 {
-margin-top:30px;
+ul {
+    margin-left: 0;
 }
-.placeholder-250x416 {
-margin-top:30px;	
+
+.side-nav {
+margin:0 0 0 50px;	
 }
-.wrapper {
-margin:50px 0;	
+#logo {
+width:100px;
+height:50px;	
 }
+
+.img-nav {
+	width: 6rem;
+    height: 6rem;
+    background: grey;
+    margin-bottom: .5rem;
+    padding-left: 33.33333%;
+}
+/**=============02 NAVIGATION===============**/
+
 
 nav li {
 margin-bottom:1rem;	
@@ -56,6 +81,11 @@ margin:0 0 0 50px;
 width:100px;
 height:50px;	
 }
+.wrapper {
+margin:3.125rem 0;	
+}
+
+
 /*-------responsive patterns three columns-------------*/
 .c {
   padding: 1em;
@@ -123,7 +153,7 @@ height:50px;
 		}
 
 
-/*-------responsive patterns-------------*/
+/*-------responsive patterns box grid-------------*/
 
 /*-------MEDIA QUERIES-------------*/
 /* Small screens*/
