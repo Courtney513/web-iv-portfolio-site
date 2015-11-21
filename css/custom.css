@@ -15,14 +15,15 @@ height:5rem;
 
 
 /**============01SPACING================**/
-.margin-30{
+.margin-32{
 	margin-top:2rem;
 }
-.padding-30 {
+.padding-32 {
 	padding-top:2rem;
 }
 /**=============01SPACING===============**/
 .wrapper {
+	width:640px;
 margin:3.125rem 0;	
 }
 /**=============02 NAVIGATION===============**/
