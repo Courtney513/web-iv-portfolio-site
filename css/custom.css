@@ -5,9 +5,9 @@
 01. SPACING
 02. NAVIGATION
 03. TYPOGRAPHY
+04. FORM
+05. BUTTONS
 ====================================**/
-
-
 .placeholder {
 	background-color: #26E5AF;
 	width: auto;
@@ -72,6 +72,8 @@ padding-top: 2em;
 } **/
 /**------img nav regular/hover-----**/
 
+
+
 /**------main nav regular/hover-----**/
 
 .main-nav {
@@ -120,6 +122,29 @@ h3 {
 	font-size: 2rem;
 }
 /**=============03 TYPOGRAPHY===============**/
+
+
+/**=============04 FORM===============**/
+form {
+background: transparent;
+}
+
+input,textarea {
+border: 4px solid #99d4bf;	
+margin-bottom:1rem;
+
+}
+
+
+/**=============04 FORM===============**/
+
+
+/**=============05 BUTTONS===============**/
+
+
+/**=============05 BUTTONS===============**/
+
+
 
 /*-------responsive patterns three columns-------------*/
 .c {
