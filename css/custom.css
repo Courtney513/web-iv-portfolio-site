@@ -34,10 +34,18 @@ ul {
 .img-nav {
 	width: 6rem;
 	height: 6rem;
-	background-color: #99d4bf;
+	background-color: transparent;
 	margin-bottom: .5rem;
 	padding-left: 33.33333%;
 }
+
+/**------img nav regular/hover-----**/
+.img-nav:hover {
+	background-color:#99d4bf;
+}
+
+
+
 /**------img nav regular/hover-----**/
 /**.box {
 	background: linear-gradient( white, white 50%, #333 50%, #333 );
