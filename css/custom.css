@@ -39,12 +39,40 @@ ul {
 	padding-left: 33.33333%;
 }
 
-/**------img nav regular/hover-----**/
-.img-nav:hover {
-	background-color:#99d4bf;
+/**====IMG NAV=====**/
+
+#img-nav-netflix-spread {
+background: url(../img/netflix-spread-hoc.png) no-repeat;	
+width:164px;
+height:131px;
 }
 
 /**------img nav regular/hover-----**/
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.tint:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  transition: all .3s linear;
+}
+.tint:hover:after {
+background: rgba(157,212,191, 0.8);
+}
+
+/**------img nav regular/hover-----**/
+
+/**====IMG NAV=====**/
 
 
 
