@@ -42,9 +42,15 @@ ul {
 /**====IMG NAV=====**/
 
 #img-nav-netflix-spread {
-background: url(../img/netflix-spread-hoc.png) no-repeat;	
+background: url(../img/small-netflix-spread-hoc.png) no-repeat;	
 width:164px;
 height:131px;
+}
+
+#img-nav-bombas-app {
+background: url(../img/small-bombas-login.png) no-repeat;
+width:164px;
+height:131px;	
 }
 
 /**------img nav regular/hover-----**/
