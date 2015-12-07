@@ -7,6 +7,7 @@
 03. TYPOGRAPHY
 04. FORM
 05. BUTTONS
+06. CUSTOM CURSOR
 ====================================**/
 .placeholder {
 	background-color: #26E5AF;
@@ -51,6 +52,36 @@ height:131px;
 background: url(../img/small-bombas-login.png) no-repeat;
 width:164px;
 height:131px;	
+}
+
+#img-nav-polar-bears-international {
+background: url(../img/small-netflix-spread-hoc.png) no-repeat;
+width:164px;
+height:131px;		
+}
+
+#img-nav-sapa {
+background: url(../img/small-netflix-spread-hoc.png) no-repeat;	
+width:164px;
+height:131px;
+}
+
+#img-nav-cub-grub {
+background: url(../img/small-bombas-login.png) no-repeat;
+width:164px;
+height:131px;	
+}
+
+#img-nav-masaya {
+background: url(../img/small-netflix-spread-hoc.png) no-repeat;
+width:164px;
+height:131px;		
+}
+
+#img-nav-rachels {
+background: url(../img/small-bombas-login.png) no-repeat;
+width:164px;
+height:131px;		
 }
 
 /**------img nav regular/hover-----**/
@@ -181,7 +212,6 @@ input[type="submit"]:hover {
 
 
 /**=============05 BUTTONS===============**/
-
 
 
 /*-------responsive patterns three columns-------------*/
