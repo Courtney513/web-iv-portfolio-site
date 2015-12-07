@@ -21,9 +21,9 @@
 .padding-32 {
 	padding-top: 2rem;
 }
-.wrapper {
-	width: 640px;
-	margin: 3.125rem 0;
+
+h2 {
+width:15rem;	
 }
 /**=============02 NAVIGATION===============**/
 nav li {
@@ -198,11 +198,13 @@ input[type="submit"] {
 	border-radius: 1rem;
 	color:#99D4BF;
 	margin-left:1rem;
+	font-size:1.2rem;
 	}
 	
 input[type="submit"]:hover {
 	background-color:#99D4BF;
 	color:white;
+	font-size:1.2rem;
 	}
 
 /**=============04 FORM===============**/
