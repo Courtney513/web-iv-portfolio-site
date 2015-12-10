@@ -6,8 +6,6 @@
 02. NAVIGATION
 03. TYPOGRAPHY
 04. FORM
-05. BUTTONS
-06. CUSTOM CURSOR
 ====================================**/
 .placeholder {
 	background-color: #26E5AF;
@@ -25,6 +23,10 @@
 h2 {
 width:15rem;	
 }
+.centered {
+margin-left: auto;
+    margin-right: auto;
+    float: none; }
 /**=============02 NAVIGATION===============**/
 nav li {
 	margin-bottom: 1rem;
@@ -39,6 +41,8 @@ ul {
 	margin-bottom: .5rem;
 	padding-left: 33.33333%;
 }
+
+
 
 /**====IMG NAV=====**/
 
@@ -55,7 +59,7 @@ height:131px;
 }
 
 #img-nav-polar-bears-international {
-background: url(../img/small-netflix-spread-hoc.png) no-repeat;
+background: url(../img/small-polar-bears-poster.png) no-repeat;
 width:164px;
 height:131px;		
 }
@@ -67,13 +71,13 @@ height:131px;
 }
 
 #img-nav-cub-grub {
-background: url(../img/small-bombas-login.png) no-repeat;
+background: url(../img/small-cub-grub.png) no-repeat;
 width:164px;
 height:131px;	
 }
 
 #img-nav-masaya {
-background: url(../img/small-netflix-spread-hoc.png) no-repeat;
+background: url(../img/small-masaya.png) no-repeat;
 width:164px;
 height:131px;		
 }
@@ -209,11 +213,6 @@ input[type="submit"]:hover {
 
 /**=============04 FORM===============**/
 
-
-/**=============05 BUTTONS===============**/
-
-
-/**=============05 BUTTONS===============**/
 
 
 /*-------responsive patterns three columns-------------*/
