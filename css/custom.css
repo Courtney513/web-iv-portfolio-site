@@ -6,11 +6,16 @@
 02. NAVIGATION
 03. TYPOGRAPHY
 04. FORM
+05. CONTACT-THANKS
 ====================================**/
 .placeholder {
 	background-color: #26E5AF;
 	width: auto;
 	height: 5rem;
+}
+.img-border {
+border: .4rem solid #99D4BF;	
+border-radius:1rem;
 }
 /**============01SPACING================**/
 .margin-32 {
@@ -27,6 +32,25 @@ width:15rem;
 margin-left: auto;
     margin-right: auto;
     float: none; }
+	
+.wrapper {
+	margin-top:2rem;
+	margin-bottom:5rem;
+}
+
+#large-cub-grub-spacing {
+	margin-top:5rem;	
+}
+#large-carbonate-spacing {
+	margin-bottom:5rem;
+	margin-left: 1.6rem
+}
+
+#large-netflix-spacing {
+margin-left: 1.6rem	
+}
+
+
 /**=============02 NAVIGATION===============**/
 nav li {
 	margin-bottom: 1rem;
@@ -82,8 +106,8 @@ width:164px;
 height:131px;		
 }
 
-#img-nav-rachels {
-background: url(../img/small-bombas-login.png) no-repeat;
+#img-nav-carbonate {
+background:url(../img/small-carbonate.png) no-repeat;
 width:164px;
 height:131px;		
 }
@@ -213,6 +237,12 @@ input[type="submit"]:hover {
 
 /**=============04 FORM===============**/
 
+/**============05 CONTACT-THANKS================**/
+ center-thank-you-message {
+    font-family: 'Lato', sans-serif;
+    color: #99d4bf;
+    text-align: center; }
+/**============05 CONTACT-THANKS================**/
 
 
 /*-------responsive patterns three columns-------------*/
